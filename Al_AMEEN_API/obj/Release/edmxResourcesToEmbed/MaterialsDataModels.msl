@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AmnDb001ModelStoreContainer" CdmEntityContainer="AmnDb001Entities2">
+    <EntitySetMapping Name="bm000">
+      <EntityTypeMapping TypeName="AmnDb001Model.bm000">
+        <MappingFragment StoreEntitySet="bm000">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gr000">
+      <EntityTypeMapping TypeName="AmnDb001Model.gr000">
+        <MappingFragment StoreEntitySet="gr000">
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Security" ColumnName="Security" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="LatinName" ColumnName="LatinName" />
+          <ScalarProperty Name="ParentGUID" ColumnName="ParentGUID" />
+          <ScalarProperty Name="branchMask" ColumnName="branchMask" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="PictureGUID" ColumnName="PictureGUID" />
+          <ScalarProperty Name="GroupMenuName" ColumnName="GroupMenuName" />
+          <ScalarProperty Name="GroupMenuLatinName" ColumnName="GroupMenuLatinName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatExBarcode000">
+      <EntityTypeMapping TypeName="AmnDb001Model.MatExBarcode000">
+        <MappingFragment StoreEntitySet="MatExBarcode000">
+          <ScalarProperty Name="Guid" ColumnName="Guid" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="MatGuid" ColumnName="MatGuid" />
+          <ScalarProperty Name="MatUnit" ColumnName="MatUnit" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mh000">
+      <EntityTypeMapping TypeName="AmnDb001Model.mh000">
+        <MappingFragment StoreEntitySet="mh000">
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="CurrencyGUID" ColumnName="CurrencyGUID" />
+          <ScalarProperty Name="CurrencyVal" ColumnName="CurrencyVal" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mt000">
+      <EntityTypeMapping TypeName="AmnDb001Model.mt000">
+        <MappingFragment StoreEntitySet="mt000">
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="LatinName" ColumnName="LatinName" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="CodedCode" ColumnName="CodedCode" />
+          <ScalarProperty Name="Unity" ColumnName="Unity" />
+          <ScalarProperty Name="Spec" ColumnName="Spec" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="High" ColumnName="High" />
+          <ScalarProperty Name="Low" ColumnName="Low" />
+          <ScalarProperty Name="Whole" ColumnName="Whole" />
+          <ScalarProperty Name="Half" ColumnName="Half" />
+          <ScalarProperty Name="Retail" ColumnName="Retail" />
+          <ScalarProperty Name="EndUser" ColumnName="EndUser" />
+          <ScalarProperty Name="Export" ColumnName="Export" />
+          <ScalarProperty Name="Vendor" ColumnName="Vendor" />
+          <ScalarProperty Name="MaxPrice" ColumnName="MaxPrice" />
+          <ScalarProperty Name="AvgPrice" ColumnName="AvgPrice" />
+          <ScalarProperty Name="LastPrice" ColumnName="LastPrice" />
+          <ScalarProperty Name="PriceType" ColumnName="PriceType" />
+          <ScalarProperty Name="SellType" ColumnName="SellType" />
+          <ScalarProperty Name="BonusOne" ColumnName="BonusOne" />
+          <ScalarProperty Name="CurrencyVal" ColumnName="CurrencyVal" />
+          <ScalarProperty Name="UseFlag" ColumnName="UseFlag" />
+          <ScalarProperty Name="Origin" ColumnName="Origin" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Security" ColumnName="Security" />
+          <ScalarProperty Name="LastPriceDate" ColumnName="LastPriceDate" />
+          <ScalarProperty Name="Bonus" ColumnName="Bonus" />
+          <ScalarProperty Name="Unit2" ColumnName="Unit2" />
+          <ScalarProperty Name="Unit2Fact" ColumnName="Unit2Fact" />
+          <ScalarProperty Name="Unit3" ColumnName="Unit3" />
+          <ScalarProperty Name="Unit3Fact" ColumnName="Unit3Fact" />
+          <ScalarProperty Name="Flag" ColumnName="Flag" />
+          <ScalarProperty Name="Pos" ColumnName="Pos" />
+          <ScalarProperty Name="Dim" ColumnName="Dim" />
+          <ScalarProperty Name="ExpireFlag" ColumnName="ExpireFlag" />
+          <ScalarProperty Name="ProductionFlag" ColumnName="ProductionFlag" />
+          <ScalarProperty Name="Unit2FactFlag" ColumnName="Unit2FactFlag" />
+          <ScalarProperty Name="Unit3FactFlag" ColumnName="Unit3FactFlag" />
+          <ScalarProperty Name="BarCode2" ColumnName="BarCode2" />
+          <ScalarProperty Name="BarCode3" ColumnName="BarCode3" />
+          <ScalarProperty Name="SNFlag" ColumnName="SNFlag" />
+          <ScalarProperty Name="ForceInSN" ColumnName="ForceInSN" />
+          <ScalarProperty Name="ForceOutSN" ColumnName="ForceOutSN" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Provenance" ColumnName="Provenance" />
+          <ScalarProperty Name="Quality" ColumnName="Quality" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Whole2" ColumnName="Whole2" />
+          <ScalarProperty Name="Half2" ColumnName="Half2" />
+          <ScalarProperty Name="Retail2" ColumnName="Retail2" />
+          <ScalarProperty Name="EndUser2" ColumnName="EndUser2" />
+          <ScalarProperty Name="Export2" ColumnName="Export2" />
+          <ScalarProperty Name="Vendor2" ColumnName="Vendor2" />
+          <ScalarProperty Name="MaxPrice2" ColumnName="MaxPrice2" />
+          <ScalarProperty Name="LastPrice2" ColumnName="LastPrice2" />
+          <ScalarProperty Name="Whole3" ColumnName="Whole3" />
+          <ScalarProperty Name="Half3" ColumnName="Half3" />
+          <ScalarProperty Name="Retail3" ColumnName="Retail3" />
+          <ScalarProperty Name="EndUser3" ColumnName="EndUser3" />
+          <ScalarProperty Name="Export3" ColumnName="Export3" />
+          <ScalarProperty Name="Vendor3" ColumnName="Vendor3" />
+          <ScalarProperty Name="MaxPrice3" ColumnName="MaxPrice3" />
+          <ScalarProperty Name="LastPrice3" ColumnName="LastPrice3" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="GroupGUID" ColumnName="GroupGUID" />
+          <ScalarProperty Name="PictureGUID" ColumnName="PictureGUID" />
+          <ScalarProperty Name="CurrencyGUID" ColumnName="CurrencyGUID" />
+          <ScalarProperty Name="DefUnit" ColumnName="DefUnit" />
+          <ScalarProperty Name="bHide" ColumnName="bHide" />
+          <ScalarProperty Name="branchMask" ColumnName="branchMask" />
+          <ScalarProperty Name="OldGUID" ColumnName="OldGUID" />
+          <ScalarProperty Name="NewGUID" ColumnName="NewGUID" />
+          <ScalarProperty Name="Assemble" ColumnName="Assemble" />
+          <ScalarProperty Name="OrderLimit" ColumnName="OrderLimit" />
+          <ScalarProperty Name="CalPriceFromDetail" ColumnName="CalPriceFromDetail" />
+          <ScalarProperty Name="ForceInExpire" ColumnName="ForceInExpire" />
+          <ScalarProperty Name="ForceOutExpire" ColumnName="ForceOutExpire" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsIntegerQuantity" ColumnName="IsIntegerQuantity" />
+          <ScalarProperty Name="ClassFlag" ColumnName="ClassFlag" />
+          <ScalarProperty Name="ForceInClass" ColumnName="ForceInClass" />
+          <ScalarProperty Name="ForceOutClass" ColumnName="ForceOutClass" />
+          <ScalarProperty Name="DisableLastPrice" ColumnName="DisableLastPrice" />
+          <ScalarProperty Name="LastPriceCurVal" ColumnName="LastPriceCurVal" />
+          <ScalarProperty Name="PrevQty" ColumnName="PrevQty" />
+          <ScalarProperty Name="FirstCostDate" ColumnName="FirstCostDate" />
+          <ScalarProperty Name="IsCalcTaxForPUTaxCode" ColumnName="IsCalcTaxForPUTaxCode" />
+          <ScalarProperty Name="HasSegments" ColumnName="HasSegments" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="IsCompositionUpdated" ColumnName="IsCompositionUpdated" />
+          <ScalarProperty Name="InheritsParentSpecs" ColumnName="InheritsParentSpecs" />
+          <ScalarProperty Name="CompositionName" ColumnName="CompositionName" />
+          <ScalarProperty Name="CompositionLatinName" ColumnName="CompositionLatinName" />
+          <ScalarProperty Name="LastPriceWithDiscAndExtra" ColumnName="LastPriceWithDiscAndExtra" />
+          <ScalarProperty Name="ExemptionReasonCode" ColumnName="ExemptionReasonCode" />
+          <ScalarProperty Name="GPC" ColumnName="GPC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="my000">
+      <EntityTypeMapping TypeName="AmnDb001Model.my000">
+        <MappingFragment StoreEntitySet="my000">
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CurrencyVal" ColumnName="CurrencyVal" />
+          <ScalarProperty Name="PartName" ColumnName="PartName" />
+          <ScalarProperty Name="PartPrecision" ColumnName="PartPrecision" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Security" ColumnName="Security" />
+          <ScalarProperty Name="LatinName" ColumnName="LatinName" />
+          <ScalarProperty Name="LatinPartName" ColumnName="LatinPartName" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="branchMask" ColumnName="branchMask" />
+          <ScalarProperty Name="PictureGUID" ColumnName="PictureGUID" />
+          <ScalarProperty Name="CurrencyISO" ColumnName="CurrencyISO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

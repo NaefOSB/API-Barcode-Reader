@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AmnDb001Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="bm000">
+    <Key>
+      <PropertyRef Name="GUID" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+    <Property Name="GUID" Type="Guid" Nullable="false" />
+  </EntityType>
+  <EntityType Name="gr000">
+    <Key>
+      <PropertyRef Name="GUID" />
+    </Key>
+    <Property Name="Number" Type="Int32" />
+    <Property Name="Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Security" Type="Int32" />
+    <Property Name="GUID" Type="Guid" Nullable="false" />
+    <Property Name="Type" Type="Int32" />
+    <Property Name="VAT" Type="Double" />
+    <Property Name="LatinName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ParentGUID" Type="Guid" />
+    <Property Name="branchMask" Type="Int64" />
+    <Property Name="Kind" Type="Byte" />
+    <Property Name="PictureGUID" Type="Guid" />
+    <Property Name="GroupMenuName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GroupMenuLatinName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MatExBarcode000">
+    <Key>
+      <PropertyRef Name="Guid" />
+    </Key>
+    <Property Name="Guid" Type="Guid" Nullable="false" />
+    <Property Name="Number" Type="Int32" />
+    <Property Name="MatGuid" Type="Guid" />
+    <Property Name="MatUnit" Type="Int32" />
+    <Property Name="Barcode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="IsDefault" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="mh000">
+    <Key>
+      <PropertyRef Name="GUID" />
+    </Key>
+    <Property Name="GUID" Type="Guid" Nullable="false" />
+    <Property Name="CurrencyGUID" Type="Guid" />
+    <Property Name="CurrencyVal" Type="Double" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="mt000">
+    <Key>
+      <PropertyRef Name="GUID" />
+    </Key>
+    <Property Name="Number" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Code" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LatinName" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="BarCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CodedCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Unity" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Spec" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Qty" Type="Double" />
+    <Property Name="High" Type="Double" />
+    <Property Name="Low" Type="Double" />
+    <Property Name="Whole" Type="Double" />
+    <Property Name="Half" Type="Double" />
+    <Property Name="Retail" Type="Double" />
+    <Property Name="EndUser" Type="Double" />
+    <Property Name="Export" Type="Double" />
+    <Property Name="Vendor" Type="Double" />
+    <Property Name="MaxPrice" Type="Double" />
+    <Property Name="AvgPrice" Type="Double" />
+    <Property Name="LastPrice" Type="Double" />
+    <Property Name="PriceType" Type="Int32" />
+    <Property Name="SellType" Type="Int32" />
+    <Property Name="BonusOne" Type="Double" />
+    <Property Name="CurrencyVal" Type="Double" />
+    <Property Name="UseFlag" Type="Double" />
+    <Property Name="Origin" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Company" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="Int32" />
+    <Property Name="Security" Type="Int32" />
+    <Property Name="LastPriceDate" Type="DateTime" Precision="3" />
+    <Property Name="Bonus" Type="Double" />
+    <Property Name="Unit2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Unit2Fact" Type="Double" />
+    <Property Name="Unit3" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Unit3Fact" Type="Double" />
+    <Property Name="Flag" Type="Double" />
+    <Property Name="Pos" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Dim" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ExpireFlag" Type="Boolean" />
+    <Property Name="ProductionFlag" Type="Boolean" />
+    <Property Name="Unit2FactFlag" Type="Boolean" />
+    <Property Name="Unit3FactFlag" Type="Boolean" />
+    <Property Name="BarCode2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BarCode3" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SNFlag" Type="Boolean" />
+    <Property Name="ForceInSN" Type="Boolean" />
+    <Property Name="ForceOutSN" Type="Boolean" />
+    <Property Name="VAT" Type="Double" />
+    <Property Name="Color" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Provenance" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Quality" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Model" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Whole2" Type="Double" />
+    <Property Name="Half2" Type="Double" />
+    <Property Name="Retail2" Type="Double" />
+    <Property Name="EndUser2" Type="Double" />
+    <Property Name="Export2" Type="Double" />
+    <Property Name="Vendor2" Type="Double" />
+    <Property Name="MaxPrice2" Type="Double" />
+    <Property Name="LastPrice2" Type="Double" />
+    <Property Name="Whole3" Type="Double" />
+    <Property Name="Half3" Type="Double" />
+    <Property Name="Retail3" Type="Double" />
+    <Property Name="EndUser3" Type="Double" />
+    <Property Name="Export3" Type="Double" />
+    <Property Name="Vendor3" Type="Double" />
+    <Property Name="MaxPrice3" Type="Double" />
+    <Property Name="LastPrice3" Type="Double" />
+    <Property Name="GUID" Type="Guid" Nullable="false" />
+    <Property Name="GroupGUID" Type="Guid" />
+    <Property Name="PictureGUID" Type="Guid" />
+    <Property Name="CurrencyGUID" Type="Guid" />
+    <Property Name="DefUnit" Type="Int32" />
+    <Property Name="bHide" Type="Boolean" />
+    <Property Name="branchMask" Type="Int64" />
+    <Property Name="OldGUID" Type="Guid" />
+    <Property Name="NewGUID" Type="Guid" />
+    <Property Name="Assemble" Type="Boolean" />
+    <Property Name="OrderLimit" Type="Double" />
+    <Property Name="CalPriceFromDetail" Type="Boolean" />
+    <Property Name="ForceInExpire" Type="Boolean" />
+    <Property Name="ForceOutExpire" Type="Boolean" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="IsIntegerQuantity" Type="Boolean" />
+    <Property Name="ClassFlag" Type="Boolean" />
+    <Property Name="ForceInClass" Type="Boolean" />
+    <Property Name="ForceOutClass" Type="Boolean" />
+    <Property Name="DisableLastPrice" Type="Boolean" />
+    <Property Name="LastPriceCurVal" Type="Double" />
+    <Property Name="PrevQty" Type="Double" />
+    <Property Name="FirstCostDate" Type="DateTime" Precision="3" />
+    <Property Name="IsCalcTaxForPUTaxCode" Type="Boolean" />
+    <Property Name="HasSegments" Type="Boolean" />
+    <Property Name="Parent" Type="Guid" />
+    <Property Name="IsCompositionUpdated" Type="Boolean" />
+    <Property Name="InheritsParentSpecs" Type="Boolean" />
+    <Property Name="CompositionName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CompositionLatinName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LastPriceWithDiscAndExtra" Type="Double" />
+    <Property Name="ExemptionReasonCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GPC" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="my000">
+    <Key>
+      <PropertyRef Name="GUID" />
+    </Key>
+    <Property Name="Number" Type="Int32" />
+    <Property Name="Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CurrencyVal" Type="Double" />
+    <Property Name="PartName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PartPrecision" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Security" Type="Int32" />
+    <Property Name="LatinName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LatinPartName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GUID" Type="Guid" Nullable="false" />
+    <Property Name="branchMask" Type="Int64" />
+    <Property Name="PictureGUID" Type="Guid" />
+    <Property Name="CurrencyISO" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="AmnDb001Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bm000" EntityType="Self.bm000" />
+    <EntitySet Name="gr000" EntityType="Self.gr000" />
+    <EntitySet Name="MatExBarcode000" EntityType="Self.MatExBarcode000" />
+    <EntitySet Name="mh000" EntityType="Self.mh000" />
+    <EntitySet Name="mt000" EntityType="Self.mt000" />
+    <EntitySet Name="my000" EntityType="Self.my000" />
+  </EntityContainer>
+</Schema>
